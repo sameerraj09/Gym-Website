@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+    padding: 12px 0;
+
+}
+.topright{
+    width: 50%;
+    height: 80vh;
+    padding: 12px 0;
+}
+.section1{
+    max-height: 100vh;
+}
+.dumbell{
+    width: 144px;
+margin-left: -152px;
+margin-top: -103px;
+}
+.gym {
+    width: 466px;
+  }
+  .section1 h1{
+    font-size: 2rem;
+    color: #e24938;
+  }
+.section2 h1{
+    size: 3rem;
+    color: #e24938;
+}
+.section2{
+    padding:103px;
+    
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    border-radius: 10%;
+    margin: 40px 22px;
+    min-width: 14vw;
+    border: 2px solid rgb(108, 64, 3);
+    text-align: center;
+    padding: 8px 0;
+    color: rgb(50, 49, 49);
+
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin:12px 2px;
+}
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.section3 h1{
+    margin-bottom: -20px;
+    color: #e24938;
+}
+.section3 table{
+width: 100%;
+margin-bottom: 140px;
+margin-top: 20px;
+border-collapse: collapse;
+}
+.section3 table th{
+width: 23vw;
+border-bottom: 2px solid black;
+padding:15px 0;  
+}
+.section3 table td{
+border-bottom: 2px solid black;
+}
+.section3 h1{
+    font-size: 1.3rem;
+}
+.section3{
+    padding: 73px;
+}
+footer {
+
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    margin: 20px 122px;
+    justify-content: space-evenly;
+}
+
+
+.footer-rights {
+    text-align: center;
+}
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
